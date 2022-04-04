@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <table border="1" class="table">
+        <!-- <thead>
+            <tr>
+                <th>id</th>
+                <th colspan="2">Ismi Familiyasi</th>
+
+                <th>Yoshi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">John</td>
+                <td>Doe</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Doe</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+                <td colspan="2">Doe 12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>12</td>
+            </tr>
+        </tbody> -->
+
+        <table class="tg">
+            <thead>
+                <tr>
+                    <th class="tg-0pky">id</th>
+                    <th class="tg-0pky">ismi</th>
+                    <th class="tg-0pky">Familiyasi</th>
+                    <th class="tg-0pky">Yoshi</th>
+                    <th class="tg-0pky" rowspan="3">telefon raqami</th>
+                </tr>
+                <tr>
+                    <th class="tg-0pky" colspan="3"></th>
+                    <th class="tg-0pky"></th>
+                </tr>
+                <tr>
+                    <th class="tg-0pky"></th>
+                    <th class="tg-0pky"></th>
+                    <th class="tg-0pky"></th>
+                    <th class="tg-0pky"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-0pky" colspan="2"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="./image/kopi2.png" srcset="./image/kopi2.png 1x, ./image/kopi2@2x.png 2x" alt="">
+        <div class="img"></div>
+</body>
+
+</html>
